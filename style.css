@@ -1,0 +1,140 @@
+* {
+    font-family: sans-serif
+}
+
+h4 {
+    font-weight: 400;
+    
+}
+
+html {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+.right-sec {
+    background-color: red;
+    overflow: hidden;
+    flex: 0;
+    width: 100px;
+    display: block;
+    background-image: url(resources/bg.png);
+}
+.left-sec {
+    background-color: #ebe9e9;
+  width: 200vh;
+}
+
+.left-sec img {
+    display: inline-block;
+    height: 120px;
+}
+
+/*-------------------------------------------------*/
+
+.top-banner {
+    margin: 0 0 30px 0;
+}
+
+.top-banner .parent {
+  position: relative;
+  top: 0;
+  left: 0;
+    height: 50px;
+}
+.top-banner .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.top-banner .image2 {
+    position: absolute;
+    margin: 0;
+    top: 0px;
+    left: 35%;
+    height: 100%;
+    width: 30%;
+}
+
+/*-------------------------------------------------*/
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.image2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.ninty {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    top: 10px;
+    left: 50%;
+}
+
+/*-------------------------------------------------*/
+
+.comment-block p {
+    margin-left: 40px;
+}
+
+.comment {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    border: solid #000 1px;
+}
+
+.comment img {
+    width: 35px;
+    height: 30px;
+    margin: 0;
+    float: left;
+}
+
+.name img {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+/*---------------------------------------------------*/
+
+.parent-sec {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*---------------------------------------------------*/
+
+.info-sec {
+    background-image: url(resources/bg.png);
+}
+
+
+.info h4 {
+    margin: 0 0 0 20px;
+}
+
+.info h3 {
+    margin: 30px 0 0 0;
+}
